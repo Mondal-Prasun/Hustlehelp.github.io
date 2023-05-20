@@ -1,0 +1,71 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+      background-image: url(Pic/Arts.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+      flex-direction: column;
+     }
+.container1{
+    background-color: white;
+    height :fit-content;
+    width: 80%;
+    margin: 10px;
+    padding: 60px;
+}
+.container2{
+    background-color: white;
+    height :fit-content;
+    width: 80%;
+    margin: 10px;
+    
+}
+.container3{
+    background-color: white;
+    height :1100px;
+    width: 80%;
+    margin: 10px;
+}
+.container1 h2{
+    margin: 40px;
+}
+.container1 ul li{
+    list-style-type: decimal ;
+}
+.container1 ul li details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.container1 ul li summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+    font-size: 20px;
+}
+
+.container1 ul li details[open] {
+    padding: 0.5em;
+}
+
+.container1 ul li details[open] summary {
+    /* border-bottom: 1px solid #aaa; */
+    margin-bottom: 0.5em;
+}
+.container2{
+    padding: 20px;
+}
+.container2 pre{
+    font-size: 18px;
+}
+.container3{
+    padding: 20px;
+}
+.container3 pre{
+    font-size:18px
+}

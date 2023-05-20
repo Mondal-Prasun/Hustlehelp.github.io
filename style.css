@@ -1,0 +1,256 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+.first{
+    background-image: url(Pic/background.jpg);
+    background-size: cover;
+    height: 1000px;
+    position: relative;
+    bottom: 101px;
+}
+header nav li a img{
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10%;
+    display: block;
+    padding: 10px 15px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+header nav ul li a:hover{
+    background-color: rgba(0, 94, 255, 0.293);
+    text-decoration:underline rgb(0, 255, 132);
+}
+header nav ul li{
+    display:inline;
+   justify-content: flex-end;
+   position: relative;
+   cursor:pointer;
+   font-family: 'Poppins', sans-serif;
+   /* padding: ; */
+
+}
+header nav ul{
+    display: flex;
+   position: relative;
+   justify-content: flex-end;
+     bottom: 45px;
+  
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header{
+     border-radius: 10%;
+     width: 720px;
+     height: 342px;
+     position: relative;
+     left: 29%;
+     top: 41%;
+     display: inline-flex;
+}
+.header .dynamic li1{
+    list-style: none;
+    font-size: 24px;
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+    /* font-weight: bold; */
+    color: #020D70;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header .dynamic li2{
+    list-style: none;
+    font-size: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 43px;
+    font-weight: bold;
+    color: #020D70;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header .dynamic li3{
+    list-style: none;
+    font-size: 30px;
+    position: relative;
+    bottom: 5px;
+    left: -202px;
+    /* font-weight: bold; */
+    color: #020D70;
+    font-family: 'Poppins', sans-serif;
+
+}
+.third{
+    background-color: rgb(34, 33, 33);
+    height: 1100px;
+    display: flex;
+}
+
+.third  .pic6 a img{
+    display: block;
+   width: 346px;
+   height: 1100px;
+   position: relative;
+}
+
+.third .pic3 a img{
+    width: 250px;
+    position: relative;
+    top: 160px;
+    display: flex;
+
+}
+.third .pic3:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.third .pic3 p{
+    position: relative;
+    top: 170px;
+    font-size: 20px;
+    left:115px;
+}
+.third .pic3 p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+} 
+.third .pic4 a img{
+    display: flex;
+    width: 250px;
+    position: relative;
+    top:430px ;
+    left: 57px;
+    z-index: 1;
+}
+.third .pic4:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.third .pic4 p{
+    position: relative;
+left: 176px;
+font-size: 20px;
+top: 450px;
+}
+.third .pic4 p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.third .pic5 a img{
+    display: flex;
+    width: 250px;
+    position: relative;
+    top:700px ;
+    left: 140px;
+}
+.third .pic5:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.third .pic5 p{
+    position: relative;
+    left: 256px;
+    font-size: 20px;
+    top: 710px;
+}
+.third p1{
+    position: relative;
+    top: 166px;
+    font-size: 25px;
+    font-weight: bold;
+    right: 350px;
+    color: white;
+    z-index: 2;
+}
+.third p2{
+    font-size: 30px;
+    font-weight: bold;
+    width: 600px;
+    color: white;
+}
+.second{
+    height: 1000px;
+}
+.second .greybox{
+    background-color: grey;
+    height: 500px;
+    position: relative;
+    top: 250px;
+}
+.second .pic1 a img {
+       height: 500px;
+       position: relative;
+       bottom:410px;
+}
+.second .pic1:hover{
+    transform:scale(0.9);
+    transition:0.5s;
+}
+.second .pic2 a img{
+    height: 400px;
+    position: relative;
+    bottom:600px;
+    left:870px;
+}
+.second .pic2:hover{
+    transform:scale(0.9);
+    transition:0.5s;
+}
+.second p{
+    position: relative;
+    bottom: 560px;
+    left:190px;
+    font-size: 30px;
+    color:rgb(2, 179, 179);
+}
+.last{
+    height: 600px;
+   background-color: white;
+   border: 10px solid gray;
+   display: flex;
+}
+.last .About {
+      display: block;
+      height: 500px;
+      width: 500px;
+      position: relative;
+      top: 140px;
+}
+
+.last .pic7 img {
+    height: 450px;
+    position: relative;
+    left: 50%;
+    top: 10%;
+}
+.last h1{
+    position: relative;
+   left:18%;
+}
+.copy{
+    background-color: black;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy p{
+    color: white;
+}

@@ -125,6 +125,7 @@ header{
     top: 170px;
     font-size: 20px;
     left:115px;
+    color: white;
 }
 .third .pic3 p:hover{
     cursor: pointer;
@@ -147,6 +148,7 @@ header{
 left: 176px;
 font-size: 20px;
 top: 450px;
+color: white;
 }
 .third .pic4 p:hover{
     cursor: pointer;
@@ -168,6 +170,7 @@ top: 450px;
     left: 256px;
     font-size: 20px;
     top: 710px;
+    color:white;
 }
 .third p1{
     position: relative;
